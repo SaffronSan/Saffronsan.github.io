@@ -56,18 +56,24 @@
         text-align: center;
         font-family: Georgia, serif;
     }
+    .resetButton{
+        color: 3330CC;
+        background-color: lightyellow;
+        border-color: lightyellow;
+    }
 </style>
 <body>
 <h1>Mimas Cassini</h1>
 <p>This images uses the image tag to upload a picture of <a style = "color: white;" href="https://solarsystem.nasa.gov/moons/saturn-moons/mimas/in-depth/">Saturn's moon.</a></p>
-<div class = "img-txt">
-    <img src = "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mimas_Cassini.jpg"/>
-    <div class = "fun">
-    <button onclick = "funFact()">Fun Fact</button>
+<div class="img-txt">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Mimas_Cassini.jpg">
     <div>
-    <p class = "ftext" id = "textChange">Click On Fun Fact</p>
+    <button class="funbutton" onclick="funFact()">Fun Fact</button>
+    <button class = "resetButton">Reset</button>
+    <div class="fun">
+        <p class="ftext" id="textChange">Click the button again!</p>
     </div>
-</div>
+    </div>
 </div>
 <script>
     function funFact(){
