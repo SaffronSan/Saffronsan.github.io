@@ -6,7 +6,7 @@
 }
 .navButton{
     color: darkblue;
-    border: 2px outset darkblue;
+    border: 2px ridge darkblue;
     text-decoration: none;
     border-radius: 10%;
     background: ivory;
