@@ -1,3 +1,13 @@
-h1{
+.homeHead1{
   color: red;
+}
+.homebody{
+  background: blanchedalmond;
+}
+.navButton{
+ color: darkblue;
+    border: 2px outset darkblue;
+    text-decoration: none;
+    border-radius: 10%;
+    background: ivory;
 }
