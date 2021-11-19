@@ -1,10 +1,10 @@
-.homeHead1{
+.homeHead{
   color: red;
 }
 .homebody{
   background: blanchedalmond;
 }
-.navButton{
+.navbutton{
     color: darkblue;
     border: 2px outset darkblue;
     text-decoration: none;
