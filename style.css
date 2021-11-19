@@ -5,6 +5,9 @@
   background: blanchedalmond;
 }
 .navButton{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
     color: darkblue;
     border: 2px ridge darkblue;
     text-decoration: none;
