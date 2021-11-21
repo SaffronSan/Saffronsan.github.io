@@ -2,18 +2,24 @@ body{
   margin: 0;
 }
 .topdiv{
-  color: white;
+  padding-top: 90px; 
+  position: absolute;
+  left:45.5%;
+}
+.topdiv p{
+  color: #e4e7ee;
   font-size:large;
   font-style: oblique;
   text-align: center;
-  padding-top: 100px;
+  border: 10px double white;
+  background:rgb(205 137 137 / 60%);
+  width: 100px;
 }
 .homebr{
-  background-image: url("https://mendolaart.com/wp-content/uploads/2016/02/THUMB__zm9d.jpg");
-  height: 100vh;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/574/417/275/aesthetic-vaporwave-wallpaper-preview.jpg");
+  height: 100vmin;
   -webkit-background-size: cover;
-  background-position: center;
-  background-size: cover;
+  background-position: initial;
 }
 .navButton{
     color: white;
