@@ -46,7 +46,6 @@ body{
 }
 .proimg{
   background-image: url("https://i.pinimg.com/originals/f9/9a/3b/f99a3be04616acaa09c8e88719b7b5e3.jpg");
-  
   background-position: center;
   background-size: cover;
   height: 70px;
@@ -66,6 +65,22 @@ body{
   color:white;
   text-align: center;
   font-family: cursive;
+}
+.aboutdiv button{
+  cursor: pointer;
+  border: 4px solid #ef7864;
+  padding: 12px 10px;
+  background: #584976;
+  color: #f47b63;
+  border-radius: 4px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.aboutdiv button:hover{
+  color: #534574;
+  background: #fa7f61;
 }
 #more{
   display: none;
