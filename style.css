@@ -6,7 +6,7 @@ body{
   font-size:large;
   font-style: oblique;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 .homebr{
   background-image: url("https://mendolaart.com/wp-content/uploads/2016/02/THUMB__zm9d.jpg");
@@ -27,6 +27,48 @@ body{
 .navButton:hover{
   background:white;
   color: black;
+}
+.aboutbackimg{
+  background-image:url("https://wallpaperaccess.com/full/84248.png");
+  height:100vh;
+  -webkit-background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+.aboutdiv{
+  height:75vh;
+  width: 30%;
+  background:rgba(0,0,0,0.6);
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.proimg{
+  background-image: url("https://i.pinimg.com/originals/f9/9a/3b/f99a3be04616acaa09c8e88719b7b5e3.jpg");
+  
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.aboutdiv h1{
+  color:white;
+  margin-top:50px;
+  text-align:center;
+}
+.aboutdiv p{
+  color:white;
+  text-align: center;
+  font-family: cursive;
+}
+#more{
+  display: none;
 }
 
 
