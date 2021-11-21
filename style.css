@@ -21,19 +21,6 @@ body{
   -webkit-background-size: cover;
   background-position: initial;
 }
-.navButton{
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 16px;
-    border:none;
-    padding: 10px 10px;
-    float: right;
-}
-.navButton:hover{
-  background:white;
-  color: black;
-}
 .aboutbackimg{
   background-image:url("https://wallpaperaccess.com/full/84248.png");
   height:100vh;
@@ -91,37 +78,36 @@ body{
 #more{
   display: none;
 }
-.homebutton{
+.navButton{
   text-decoration: solid;
+  font-size: large;
   color: white;
   border: none;
   cursor: pointer;
   padding-right: 10px;
   float: right;
 }
-.homebutton span{
+.navButton span{
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-.homebutton span:after {
+.navButton span:after {
   position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
 }
-.homebutton:hover span {
-  padding-right: 10px;
+.navButton:hover span {
+  padding: 5px 10px;
 }
-.homebutton:hover span:after {
+.navButton:hover span:after {
   opacity: 1;
   right: 0;
 }
-.homebutton:hover{
-  background: white;
-  color: black;
+.navButton:hover{
+  background:rgb(255 249 249 / 60%);
+  color: #242323;
 }
-
-
