@@ -122,3 +122,21 @@ body{
   height:100px;
   width: 100px;
 }
+.row {
+  margin: 8px -16px;
+}
+.row > .column {
+  padding: 8px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.c# {
+  float: right;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+}
