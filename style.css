@@ -12,11 +12,11 @@ body{
   font-style: oblique;
   text-align: center;
   border: 10px double white;
-  background:rgb(205 137 137 / 60%);
+  background:rgb(232 131 131 / 60%);
   width: 100px;
 }
 .homebr{
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/574/417/275/aesthetic-vaporwave-wallpaper-preview.jpg");
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/04/red-aesthetic-wallpaper-9-920x518.jpg");
   height: 100vmin;
   -webkit-background-size: cover;
   background-position: initial;
@@ -81,7 +81,7 @@ body{
 .navButton{
   text-decoration: solid;
   font-size: large;
-  color: white;
+  color: #e22626;
   border: none;
   cursor: pointer;
   padding-right: 10px;
@@ -108,6 +108,6 @@ body{
   right: 0;
 }
 .navButton:hover{
-  background:rgb(255 249 249 / 60%);
-  color: #242323;
+  background:rgb(217 23 23 / 60%);
+  color: white;
 }
