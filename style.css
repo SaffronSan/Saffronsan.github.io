@@ -142,3 +142,28 @@ table{
 td{
   padding: 40px;
 }
+.refmbody{
+  background: #cecaca;
+}
+.headrow{
+  background: #888585;
+  padding-top: 10px;
+  padding-bottom: 40px
+}
+.headrow .navButton{
+  border: none;
+  color: white;
+}
+.headrow .navButton:hover{
+  color: black;
+  background: white;
+}
+.refbody .reflink{
+    color: white;
+    font-size: large;
+}
+.refbody .linkkey{
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+}
