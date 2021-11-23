@@ -158,12 +158,19 @@ td{
   color: black;
   background: white;
 }
+..refmbody{
+  background: #ccccbf;
+}
+.refbutton:hover{
+  color: black;
+  background: white;
+}
 .refbody .reflink{
-    color: white;
+    color: #101010;
     font-size: large;
 }
 .refbody .linkkey{
-  color: white;
+  color: #131313;
   font-size: 12px;
   font-style: italic;
 }
