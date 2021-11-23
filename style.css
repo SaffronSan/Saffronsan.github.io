@@ -97,10 +97,8 @@ body{
 .navButton{
   text-decoration: solid;
   font-size: large;
-  color: #e22626;
-  border-left: 2px solid pink;
-  border-right: 2px solid pink;
-  border-bottom: 2px solid pink;
+  color: #2e2f42;
+  border: 2px groove black;
   cursor: pointer;
   padding-right: 20px;
   padding-left: 20px;
