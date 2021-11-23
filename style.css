@@ -113,6 +113,10 @@ body{
   background:rgb(217 23 23 / 60%);
   color: white;
 }
+.headSec {
+  margin-bottom: 10px;
+  padding-bottom: 10px
+}
 .probg{
   background:rgb(236 99 99 / 71%);
 }
