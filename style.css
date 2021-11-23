@@ -147,18 +147,21 @@ td{
 }
 .headrow{
   background: #888585;
-  padding-top: 10px;
-  padding-bottom: 40px
+  overflow: hidden;
 }
-.headrow .navButton{
+.refbutton{
   border: none;
   color: white;
+  float:right;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 14px 16px;
 }
-.headrow .navButton:hover{
+.refbutton:hover{
   color: black;
   background: white;
 }
-..refmbody{
+.refmbody{
   background: #ccccbf;
 }
 .refbutton:hover{
@@ -166,8 +169,16 @@ td{
   background: white;
 }
 .refbody .reflink{
-    color: #101010;
+    color: #efefef;
     font-size: large;
+}
+.refbody{
+  padding-left: 10px;
+}
+.refbody .linkkey{
+  color: #131313;
+  font-size: 12px;
+  font-style: italic;
 }
 .refbody .linkkey{
   color: #131313;
