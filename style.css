@@ -167,3 +167,22 @@ td{
   font-size: 12px;
   font-style: italic;
 }
+.contactbody{
+  background: #6aafde;
+}
+.contactbody .navButton{
+  border: none;
+  color: white;
+}
+.contactbody .navButton:hover{
+  background: gray;
+  font-size: 20px;
+  padding-bottom: 10px
+}
+.contactHead{
+    background: #96bfcc;
+    padding-bottom: 40px;
+}
+.contactEle h1,p{
+  color: white;
+}
