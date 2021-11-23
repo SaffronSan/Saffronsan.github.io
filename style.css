@@ -82,9 +82,12 @@ body{
   text-decoration: solid;
   font-size: large;
   color: #e22626;
-  border: none;
+  border-left: 2px solid pink;
+  border-right: 2px solid pink;
+  border-bottom: 2px solid pink;
   cursor: pointer;
-  padding-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
   float: right;
 }
 .navButton span{
@@ -97,7 +100,6 @@ body{
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
   transition: 0.5s;
 }
 .navButton:hover span {
